@@ -5,8 +5,8 @@
 	"id": "./index.html",
 	"display": "standalone",
     "description": "A Cookbook using Progressive Web Apps",
-	"background_color": "#FFE9D2",
-	"theme_color": "#FFE1C4",
+	"background_color": "#000000",
+	"theme_color": "#FFE9D2",
 	"orientation": "portrait-primary",
 	"icons": [
 		{
