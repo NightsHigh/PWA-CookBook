@@ -4,6 +4,7 @@
 	"start_url": "./index.html",
 	"id": "./index.html",
 	"display": "standalone",
+    "description": "A Cookbook using Progressive Web Apps",
 	"background_color": "#FFE9D2",
 	"theme_color": "#FFE1C4",
 	"orientation": "portrait-primary",
