@@ -1,4 +1,9 @@
 document.addEventListener('DOMContentLoaded', function() {
+  if('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('./sw.js')
+    .then(reg => console.log('service worker registered', reg))
+    .catch(err => console.error('service worker not registered', err)) 
+  }
   // nav menu
   const menus = document.querySelectorAll('.side-menu');
   M.Sidenav.init(menus, {edge: 'right'});
